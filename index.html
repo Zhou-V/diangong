@@ -3,6 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <title>www.bjcscn.com</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        /* 基础字体样式，对PC和手机都生效 */
+        body {
+            font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif; /* 设置清晰字体 */
+            line-height: 1.6; /* 舒适的行高 */
+            color: #333; /* 基本的深灰色文字 */
+            padding: 20px; /* 基本的页面内边距 */
+        }
+        h1 {
+            font-size: 2rem; /* 使用rem相对单位，便于适配 */
+            margin-bottom: 1.2em;
+        }
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 0.8em;
+        }
+        strong {
+            color: #000; /* 标签加粗并加深颜色 */
+        }
+
+        /* 媒体查询：针对手机等小屏幕设备 */
+        @media (max-width: 768px) {
+            body {
+                padding: 15px; /* 在小屏幕上减小内边距 */
+            }
+            h1 {
+                font-size: 1.8rem; /* 在小屏幕上减小标题字号 */
+            }
+            p {
+                font-size: 1.05rem; /* 在小屏幕上减小正文字号 */
+            }
+        }
+
+        /* 媒体查询：针对非常小的手机屏幕 */
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.6rem;
+            }
+            p {
+                font-size: 1rem;
+            }
+        }
+    </style>
 </head>
 <body>
    
@@ -13,4 +58,5 @@
     <p><strong>技能等级：</strong>三级</p>
     <p><strong>证书编码：</strong>S000041160042255000562</p>
 </body>
+
 </html>
